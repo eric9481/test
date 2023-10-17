@@ -178,30 +178,6 @@ a {
 }
 
 /* Buttons */
-.btn1 {
-    border-radius: 50px;
-    background: none;
-    padding: 2rem 2rem;
-    color: #fff;
-}
-
-.btn--heading1 {
-    background: var(--color-headings);
-}
-
-.btn--secondary1 {
-    background: var(--color-secondary);
-}
-
-.btn--accent1 {
-    background: var(--color-accent);
-}
-
-.btn--fill1 {
-    width: 100%;
-}
-
-
 .btn {
     border-radius: 40px;
     border: 0;
@@ -258,8 +234,29 @@ a {
     display: inline-block;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     .btn {
         font-size: 1.5rem;
     }
+}
+
+/* Inputs */
+.input {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    color: var(--color-headings);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+    color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.5rem;
+    }
+    
 }
