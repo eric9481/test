@@ -394,33 +394,12 @@ a {
 .quote__text::before {
     content: open-quote;
     margin-right: 0.8rem;
-    
 }
 
 .quote__text::after {
     content: close-quote;
     margin-left: 0.8rem;
 }
-
-/* .quote__footer {
-    font-style: normal;
-    margin-top: 4.5rem;
-}
-
-.quote__image {
-    margin-top: 0;
-}
-
-.quote__name {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.quote__company {
-    font-size: 2rem;
-    font-weight: 400;
-    opacity: 0.4;
-} */
 
 .quote__author {
     font-size: 3rem;
@@ -452,5 +431,16 @@ a {
 
     .quote__organization {
         font-size: 1.6rem;
+    }
+}
+
+/* Grids */
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
